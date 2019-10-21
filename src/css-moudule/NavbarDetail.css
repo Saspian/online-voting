@@ -1,0 +1,99 @@
+.navbar2{
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    overflow: hidden;
+    top:0;
+    width: 100vw;
+    z-index:2;
+    height: 15%;
+    background-color: white;
+    transform: translateY(-100%);
+    transition: all 0.3s ease;
+}
+.navLinks2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    height: 100%;
+}
+.navLinks2 img,li{
+    z-index: 2;
+    cursor: pointer;
+}
+.navbar2 .navLinks2 .abt:hover{
+    color: #f57932;
+}
+.navbar2 .navLinks2 .faq:hover{
+    color: #f57932;
+}
+.logo2{
+    width: 100px;
+}
+.navbar2 .navLinks2 li{
+    font-weight: 400;
+    font-size: 20px;
+    color:#1B3766;   
+    list-style-type: none;
+    text-align: right;
+
+}
+.burger2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.burger2 .lines div{
+    width:24px;
+    height: 2px;
+    margin: 4px;
+    transition: all 0.3s ease;
+    background-color: #1B3766;
+}
+.burger2 .lines .line1{
+    transform: rotate(-45deg) translate(-2.5px,6px);
+}
+.burger2 .lines .line2{
+        opacity: 0;
+}
+.burger2 .lines .line3{
+    transform: rotate(45deg) translate(-2.5px,-6px);
+}
+.userLogged{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: lowercase;
+    display: none;
+}
+.unhideUser{
+    display: block;
+}
+.logout{
+    font-size: 10px;
+    color:rgb(231, 197, 44);
+    text-decoration: none;
+}
+.social{
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+}
+.socialLink img .small{
+    width:10px;
+}
+.secondNav{
+    transform: translateY(0%);
+}
+@media screen and (max-width: 768px){
+    .abt, .faq{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .abt, .faq{
+        display: none;
+    }
+
+}

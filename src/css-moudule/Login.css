@@ -1,0 +1,36 @@
+.login{
+    text-align: center;
+    margin-top:25vh;
+}
+.form input{
+    min-height: 40px;
+    border: none;
+}
+main img{
+    width:100px;
+    margin-bottom: 20px;
+}
+input{
+    z-index: 10;
+    text-indent: 10px;
+}
+.btn{
+    border:none;
+    font-size: 18px;
+    padding: 5px;
+    background:white;
+    border-radius: 4px;
+    color:#22487E;
+    text-transform: uppercase;
+    margin:10px;
+    font-weight: 600;
+    width: 100px;
+}
+button{
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+   .login{
+       overflow: hidden;
+   }
+}

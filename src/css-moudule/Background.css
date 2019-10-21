@@ -1,0 +1,22 @@
+.main2{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(../img/845.jpg); */
+    background-image: url(/assests/img/845.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.fade2{
+    background:radial-gradient(#7299E5,#152C51);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;
+    z-index: 1;
+}

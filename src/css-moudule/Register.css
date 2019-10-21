@@ -1,0 +1,17 @@
+.register{
+    text-align: center;
+    margin-top:25vh;
+}
+.span{
+    color:white;
+    text-decoration: none;
+}
+.span:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:768px){
+    .register{
+        overflow: hidden;
+    }
+}
+

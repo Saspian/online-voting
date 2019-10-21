@@ -1,0 +1,137 @@
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    overflow: hidden;
+    top:0;
+    width: 100vw;
+    z-index:1;
+    height: 15%;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    height: 100%;
+}
+.navLinks img,li{
+    z-index: 10;
+    cursor: pointer;
+}
+.logo{
+    width: 10vw;
+}
+.navbar .navLinks li{
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+    list-style-type: none;
+    text-align: right;
+}
+
+.userLogged{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: lowercase;
+    display: none;
+}
+/*DISPLAYING */
+.unhideUser{
+    display: block;
+}
+.logout{
+    font-size: 10px;
+    color:rgb(231, 197, 44);
+    text-decoration: none;
+}
+/*burger*/
+.burger{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lines{
+    margin-left:10px;
+}
+.navLinks .burger{
+    z-index: 3;
+}
+.burger .lines div{
+    width:24px;
+    height: 2px;
+    margin: 4px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+.change .line1{
+    transform: rotate(-45deg) translate(-2.5px,6px);
+}
+.change .line2{
+        opacity: 0;
+}
+.change .line3{
+    transform: rotate(45deg) translate(-2.5px,-6px);
+}
+.change{
+    color: #1B3766;   
+}
+.change .lines div{
+    background-color: #1B3766;
+}
+/*FOR ANIMATION ON NAVBAR DETAILS*/
+.secondNav{
+    transform: translateY(0%);
+}
+ 
+/*FOR DROPDOWN BUTTONS*/
+.dropbtn {
+    background-color: transparent;
+    color: #1B3766;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15pt;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+    overflow: visible;
+  }
+  
+  .dropdown-content span {
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+  }
+  .dropdown-content span i{
+      margin: 2px;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: #f57932;
+  }
+
+  /*responsiveness*/
+  @media screen and (max-width: 768px){
+      .logo{
+          width:20vw;
+      }
+
+  }

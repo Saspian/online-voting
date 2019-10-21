@@ -1,0 +1,50 @@
+.secondPage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assests/img/1818.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    top: 100vh;
+    left:0;
+    z-index: -1;
+}
+.takingPart{
+    width:80%;
+    position: absolute;
+    left:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondPage h1{
+    font-size: 6vh;
+    margin:5% 0% 5% 10%;
+    color:white;
+}
+.secondPage .takingPart ol{
+    margin-left: 10%;
+    width:40%;
+}
+.secondPage .takingPart li{
+    font-size: 2vh;
+    color:white;
+    line-height: 4vh;
+    list-style-type: none;
+    text-align: justify;
+}
+.secondPage img{
+    width:28vw;
+}
+@media screen and (max-width:768px){
+    .secondPage h1{
+        font-size: 4vh;
+    }
+    .secondPage img{
+        display: none;
+    }
+    .secondPage .takingPart li{
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+}

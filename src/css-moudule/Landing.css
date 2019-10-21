@@ -1,0 +1,132 @@
+.landing{
+    overflow:hidden;
+}
+.landing .jumbo h3{
+    font-size: 5vw;
+    color:white;
+    font-weight: 400;
+    width:10%;
+    line-height: 5vw;
+}
+.jumbo{
+    min-height: 35vh;
+    position: relative;
+    left:10%;
+    width: 10vw;    
+}
+.titleCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleCard{
+    width:95%;
+    margin:auto;
+    position: absolute;
+    top: 30vh;
+} 
+.titleCard .jumbo p{
+    font-size: 1.7vw;
+    color: white;
+    margin-top: 3vh;
+    margin-left:2vw;
+    width: 35vw;
+}
+.titleCard img{
+    width:35vw;
+}
+.line{
+    background-color: #FF5733;
+    width: 3px;
+    height: 5.6vw;
+    position: absolute;
+    left:0.1vw;
+}
+.VoteBtn{
+    border:none;
+    background:white;
+    border-radius: 6px;
+    color:#22487E;
+    text-transform: uppercase;
+    margin-top:20px;
+}
+.jumbo .homeBtn{
+    font-weight: 600;
+    width:11vw;
+    font-size: 1.5vw;
+    padding: 7px;
+    position: relative;
+}
+.arrowdown{
+    position: absolute;
+    top:94vh;
+    left:50vw;
+    height: 30px;
+    width: 10px;
+    cursor: pointer;
+}
+.downline{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+.downarrowhead1{
+    position: absolute;
+    top:3vh;
+    width: 2px;
+    height: 13px;
+    background-color:white;
+    transform: rotate(45deg);
+    margin-left:4px;
+}
+.downarrowhead2{
+    position: absolute;
+    top:3vh;
+    width: 2px;
+    height: 13px;
+    background-color:white;
+    transform: rotate(135deg);
+    margin-left:-4px;
+}
+/*FOR RESPONSIVENESS*/
+@media screen and (max-width:768px){
+    .titleCard img{
+        display:none;
+    }
+    .jumbo{
+        min-height: 35vh;
+        position: relative;
+        left:10%;    
+    }
+    .landing .jumbo h3{
+        font-size: 11vw;
+        color:white;
+        font-weight: 400;
+        width:10%;
+        line-height: 12vw;
+    }
+    .titleCard .jumbo p{
+        font-size: 2.5vw;
+        color: white;
+        margin-top: 3vh;
+        margin-left:2vw;
+        width: 50vw;
+    }
+    .line{
+        background-color: #FF5733;
+        width: 3px;
+        height: 7vw;
+    }
+    .jumbo .homeBtn{
+        width:25vw;
+        font-size: 14pt;
+    }
+
+}
+@media screen and (max-width:400px){
+    .homeBtn{
+        width:14vw;
+        font-size: 20pt;
+    }
+}

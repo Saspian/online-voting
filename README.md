@@ -1,3 +1,10 @@
+## About this website
+This is a simple mockup website made for a upcoming program called ICT meetupv6.0. 
+Student group/individuals can upload there project details from the home page following instructions then
+submitted projects are open for voting. An user doesn't need account to submit a project but need one
+to vote a project, you can create an account clicking sign up button.
+This project is mobile friendly
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,12 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `About this website`
-This is a simple mockup website made for a upcoming program called ICT meetupv6.0. 
-Student group/individuals can upload there project details from the home page following instructions then
-submitted projects are open for voting. An user doesn't need account to submit a project but need one
-to vote a project, you can create an account clicking sign up button.
-This project is mobile friendly
+
 
 
 

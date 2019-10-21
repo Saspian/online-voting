@@ -29,6 +29,16 @@ input{
 button{
     cursor: pointer;
 }
+.form span{
+    color:white;
+}
+.admin{
+    text-decoration: none;
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 @media screen and (max-width:768px){
    .login{
        overflow: hidden;

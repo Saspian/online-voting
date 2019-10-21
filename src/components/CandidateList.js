@@ -14,7 +14,7 @@ const CandidateList = () => {
 
     const getProjects = async () => {
         try{
-            const getProjects = await fetch("http://localhost:3001/api/participants/registeredparticipants");
+        const getProjects = await fetch("http://192.168.1.69:3001/api/participants/registeredparticipants");
         const data = await getProjects.json();
         console.log(data);
         setProjects(data);
@@ -28,7 +28,7 @@ const CandidateList = () => {
         <div className='project'>
             {projects.map(project => (
             /* <div dangerouslySetInnerHTML={project.embed} /> */              
-            <CandidateCard key={project._id} id={project._id} title={project.pName} vid={getVideoId(project.vDemo).id} des={project.pDesc} sub={project.submittedBy} org={project.cName} />
+            <CandidateCard key={project._id} id={project._id} title={project.pName} vid={getVideoId(project.vDemo).id} des={project.pDesc} sub={project.submittedBy} org={project.cName}  />
             ))}
             
         </div>

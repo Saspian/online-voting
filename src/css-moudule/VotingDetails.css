@@ -1,0 +1,52 @@
+.backgroundTable{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(/assests/img/845.jpg); */
+    /* background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,168,255,1) 0%, rgba(9,9,121,1) 100%); */
+    background: linear-gradient(#36d1dc,#5b86e5);
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.2s;
+}
+.votingTable{
+    /* background:rgb(29, 87, 153); */
+    position: absolute;
+    top:15%;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+    left:10%;
+}
+.votingTable h1{
+    text-align: center;
+    margin:10px;
+    color:#1B3766;
+}
+#projects{
+    border-collapse: collapse;
+    width: 100%;
+}
+#projects td, #projects th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#projects tr:nth-child(even){
+    background:#f2f2f2;
+}
+#projects tr:hover{
+    background:#ddd;
+}
+#projects th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background: #f57932; */
+    background: #1B3766;
+    color:white;
+    text-align: center;
+}

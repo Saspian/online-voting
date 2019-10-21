@@ -14,7 +14,7 @@ const CandidateList2 = ({match}) => {
 
     const getProject = async () => {
         try{
-            const getProject = await fetch(`http://localhost:3001/api/participants/registeredparticipants/${match.params.id}`);
+            const getProject = await fetch(`http://192.168.1.69:3001/api/participants/registeredparticipants/${match.params.id}`);
             const data2 = await getProject.json();
             // console.log(data2);
             setProject(...project,data2);    

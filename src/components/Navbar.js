@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import '../css-moudule/Navbar.css';
 import '../css-moudule/NavbarDetail.css';
 import {Link} from 'react-router-dom';
+// import {imgsrc} from 'assests/img/cLogo.png';
 
 const Navbar = () => {
     //BURGER ANIMATION

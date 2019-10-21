@@ -15,8 +15,7 @@ You will also see any lint errors in the console.
 ### `About this website`
 This is a simple mockup website made for a upcoming program called ICT meetupv6.0. 
 Student group/individuals can upload there project details from the home page following instructions then
-submitted projects are open for voting. A
-user doesn't need account to submit a project but need one
+submitted projects are open for voting. An user doesn't need account to submit a project but need one
 to vote a project, you can create an account clicking sign up button.
 This project is mobile friendly
 

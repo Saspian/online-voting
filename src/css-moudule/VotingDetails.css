@@ -6,8 +6,7 @@
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,168,255,1) 0%, rgba(9,9,121,1) 100%); */
     background: linear-gradient(#36d1dc,#5b86e5);
     background-size: cover;
-    overflow: hidden;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: -1;

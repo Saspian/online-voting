@@ -1,11 +1,10 @@
 .main{
     width: 100vw;
     height: 100vh;
-    /* background-image: url(../img/845.jpg); */
     background-image: url(/assests/img/845.jpg);
     background-size: cover;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: -1;

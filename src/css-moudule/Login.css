@@ -10,6 +10,9 @@ main img{
     width:100px;
     margin-bottom: 20px;
 }
+.login .form input{
+    min-width: 23vw;
+}
 input{
     z-index: 10;
     text-indent: 10px;
@@ -35,7 +38,7 @@ button{
 .admin{
     text-decoration: none;
 }
-span:hover{
+.admin:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -43,4 +46,7 @@ span:hover{
    .login{
        overflow: hidden;
    }
+   .login .form input{
+    min-width: 80vw;
+    }
 }

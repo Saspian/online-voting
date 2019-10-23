@@ -3,11 +3,11 @@ import LoginForAdmin from '../components/LoginForAdmin';
 import Home from '../components/Home';
 
 const LoginPageForAdmin = () => {
-    return(
-        <div>
-            <Home />
-            <LoginForAdmin />
-        </div>
-    );
-}
+  return (
+    <div>
+      <Home />
+      <LoginForAdmin />
+    </div>
+  );
+};
 export default LoginPageForAdmin;

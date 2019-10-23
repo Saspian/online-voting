@@ -3,12 +3,12 @@ import Home from '../components/Home';
 import Login from './Login';
 
 const LoginPage = () => {
-    return(
-        <div>
-            <Home />
-            <Login />
-        </div>          
-    );
-}
+  return (
+    <div>
+      <Home />
+      <Login />
+    </div>
+  );
+};
 
 export default LoginPage;

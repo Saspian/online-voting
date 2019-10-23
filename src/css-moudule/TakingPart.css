@@ -1,13 +1,13 @@
 .secondPage{
     width: 100vw;
     height: 100vh;
-    background-image: url(/assests/img/1818.jpg);
+    /* background-image: url(/assests/img/1818.jpg); */
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden; 
     position: absolute;
     top: 100vh;
     left:0;
-    z-index: -1;
+    z-index: 1;
 }
 .takingPart{
     width:80%;

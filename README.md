@@ -5,7 +5,7 @@ submitted projects are open for voting. An user doesn't need account to submit a
 to vote a project, you can create an account clicking sign up button. Now you can see the number of votes of a projects by loging as admin from login page. This project is mobile friendly
 
 
-## To know the email and passwords for admin, make a GET request at backend on http://localhost:3001/api/admin/login 
+#### To know the email and passwords for admin, make a GET request at backend on http://localhost:3001/api/admin/login 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
